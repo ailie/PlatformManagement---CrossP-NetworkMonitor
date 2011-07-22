@@ -1,0 +1,22 @@
+NetworkMonitor
+
+A free, open-source and cross-platform network packet analyzer that can be used for network troubleshooting, analysis and education. NetworkMonitor also provides a sleek UI, Qt style.
+
+Requires:
+  * Qt SDK - http://qt.nokia.com/downloads;
+  * pcap API - unix-like systems implement pcap in the libpcap library, while Windows uses a port of libpcap known as WinPcap.
+
+
+
+# Warning
+
+1. Check the file "NetworkMonitor.pro" and make sure exactly one OS section is un-commented, eg Windows if that's your OS.
+
+2. In the requirements section above, it gets mentioned pcap "API" as in "application programming interface", so please do not try to compile and build this project using the "Driver + DLLs" WinPcap Installer (that may be needed on the end-user platform), instead download WinPcap "Developer's Pack" !
+
+3. After downloading WinPcap "Developer's Pack", uncompress the archive in C: !
+
+
+
+Have fun,
+Andrei
